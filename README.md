@@ -1,6 +1,10 @@
 ![Ali Aljahmi](./assets/ali-name.svg)
 
 <p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;size=18&amp;duration=2600&amp;pause=900&amp;color=5EEAD4&amp;center=true&amp;vCenter=true&amp;width=620&amp;height=45&amp;lines=Entomophobia%3A+fear+of+bugs.;Possibly+the+wrong+career+choice." alt="Typing animation: Entomophobia, fear of bugs. Possibly the wrong career choice.">
+</p>
+
+<p align="center">
   <a href="https://www.linkedin.com/in/ali-alj/"><img src="./assets/linkedin-logo.svg" alt="Visit Ali's LinkedIn" width="160" height="44"></a>
   &nbsp;&nbsp;
   <a href="https://alialj.github.io/Portfolio/"><img src="./assets/portfolio-logo.svg" alt="Explore Ali's Portfolio" width="160" height="44"></a>
