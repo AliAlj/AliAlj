@@ -16,6 +16,5 @@
 
 <p align="center">
   <img src="./profile-3d-contrib/profile-night-green-streak.svg" alt="Ali's 3D contribution calendar">
-  <br>
-  <img src="https://komarev.com/ghpvc/?username=AliAlj&amp;label=profile+views&amp;color=5eead4&amp;style=flat-square&amp;abbreviated=true" alt="Ali's profile views">
+  <img src="https://komarev.com/ghpvc/?username=AliAlj&amp;style=pixel" alt="" width="1" height="1">
 </p>
