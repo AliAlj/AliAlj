@@ -1,5 +1,8 @@
 ![Ali Aljahmi](./assets/ali-name.svg)
 
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;size=17&amp;duration=2600&amp;pause=900&amp;color=6B7280&amp;center=true&amp;vCenter=true&amp;width=620&amp;height=42&amp;lines=Entomophobia%3A+fear+of+bugs.;Possibly+the+wrong+career+choice." alt="Typing animation: Entomophobia, fear of bugs. Possibly the wrong career choice.">
+</p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/ali-alj/"><img src="./assets/linkedin-logo.svg" alt="Visit Ali's LinkedIn" width="160" height="44"></a>
@@ -12,5 +15,7 @@
 <h3 align="center">My contributions, stacks on stacks on stacks</h3>
 
 <p align="center">
-  <img src="./profile-3d-contrib/profile-night-green-streak.svg" alt="Ali's 3D contribution calendar">\n  <br>\n  <img src="https://komarev.com/ghpvc/?username=AliAlj&amp;label=profile+views&amp;color=5eead4&amp;style=flat-square&amp;abbreviated=true" alt="Ali's profile views">
+  <img src="./profile-3d-contrib/profile-night-green-streak.svg" alt="Ali's 3D contribution calendar">
+  <br>
+  <img src="https://komarev.com/ghpvc/?username=AliAlj&amp;label=profile+views&amp;color=5eead4&amp;style=flat-square&amp;abbreviated=true" alt="Ali's profile views">
 </p>
