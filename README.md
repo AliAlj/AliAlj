@@ -11,11 +11,3 @@
 <p align="center">
   <img src="./profile-3d-contrib/profile-night-green-clean.svg" alt="Ali's 3D contribution calendar">
 </p>
-
-<p align="center"><sub>Built from my GitHub activity · refreshed daily</sub></p>
-
-<h3 align="center">🔥 Highest streak</h3>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=AliAlj&theme=dark&hide_border=true&background=090F20&ring=5EEAD4&fire=A78BFA&currStreakNum=F5F3FF&sideNums=F5F3FF&currStreakLabel=B6BDD3&sideLabels=B6BDD3&dates=B6BDD3&hide_total_contributions=true&hide_current_streak=true" alt="Ali's longest GitHub contribution streak">
-</p>
