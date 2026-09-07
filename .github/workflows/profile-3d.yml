@@ -66,7 +66,7 @@ jobs:
               r'contributions</text>'
           )
           contribution = (
-              '<text x="300" y="830" text-anchor="middle">'
+              '<text x="360" y="830" text-anchor="middle">'
               '<tspan style="font-size: 32px; font-weight: bold;" '
               'class="fill-strong">\\1</tspan>'
               '<tspan dx="10" style="font-size: 24px;" '
@@ -81,14 +81,14 @@ jobs:
               f'class="fill-strong">🔥 {longest}</tspan>'
               '<tspan dx="10" style="font-size: 24px;" '
               'class="fill-fg">day streak</tspan></text>'
-              '<text x="980" y="830" text-anchor="middle">'
+              '<text x="920" y="830" text-anchor="middle">'
               '<tspan style="font-size: 32px; font-weight: bold;" '
               f'class="fill-strong">🔎 {views}</tspan>'
               '<tspan dx="10" style="font-size: 24px;" '
               'class="fill-fg">views</tspan></text>'
           )
           cleaned = cleaned.replace(marker, stat + marker)
-          Path("profile-3d-contrib/profile-night-green-compact.svg").write_text(cleaned)
+          Path("profile-3d-contrib/profile-night-green-tight.svg").write_text(cleaned)
           PY
       - name: Save calendar
         run: |
