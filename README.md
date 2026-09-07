@@ -4,6 +4,8 @@
   <a href="https://www.linkedin.com/in/ali-alj/"><img src="./assets/linkedin.svg" alt="Visit Ali's LinkedIn" width="160" height="44"></a>
   &nbsp;&nbsp;
   <a href="https://alialj.github.io/Portfolio/"><img src="./assets/portfolio.svg" alt="Explore Ali's Portfolio" width="160" height="44"></a>
+  &nbsp;&nbsp;
+  <a href="mailto:alimjahmi@gmail.com"><img src="./assets/email.svg" alt="Email Ali at alimjahmi@gmail.com" width="160" height="44"></a>
 </p>
 
 <h3 align="center">My contributions, stacks on stacks on stacks</h3>
