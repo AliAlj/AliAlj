@@ -47,9 +47,12 @@ jobs:
 
           marker = '<text style="font-size: 16px;" x="1260"'
           stat = (
-              '<text style="font-size: 28px; font-weight: bold;" '
-              'x="860" y="830" text-anchor="middle" class="fill-fg">'
-              f'🔥 {longest} day streak</text>'
+              '<text style="font-size: 32px; font-weight: bold;" '
+              'x="820" y="830" text-anchor="end" class="fill-strong">'
+              f'🔥 {longest}</text>'
+              '<text style="font-size: 24px;" '
+              'x="830" y="830" text-anchor="start" class="fill-fg">'
+              'day streak</text>'
           )
           cleaned = cleaned.replace(marker, stat + marker)
           Path("profile-3d-contrib/profile-night-green-streak.svg").write_text(cleaned)
