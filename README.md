@@ -1,7 +1,7 @@
 ![Ali Aljahmi](./assets/ali-name.svg)
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;size=17&amp;duration=2600&amp;pause=900&amp;color=6B7280&amp;center=true&amp;vCenter=true&amp;width=620&amp;height=42&amp;lines=Entomophobia%3A+fear+of+bugs.;Possibly+the+wrong+career+choice." alt="Typing animation: Entomophobia, fear of bugs. Possibly the wrong career choice.">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;size=17&amp;duration=2600&amp;pause=900&amp;color=000000&amp;center=true&amp;vCenter=true&amp;width=620&amp;height=42&amp;lines=Entomophobia%3A+fear+of+bugs.;Possibly+the+wrong+career+choice." alt="Typing animation: Entomophobia, fear of bugs. Possibly the wrong career choice.">
 </p>
 
 <p align="center">
