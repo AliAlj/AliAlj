@@ -1,4 +1,4 @@
-![Ali's Lab — animated astral banner](./assets/ali-astral.svg)
+![Ali Aljahmi](./assets/ali-name.svg)
 
 <p align="center">
   <a href="https://www.linkedin.com/in/ali-alj/"><img src="./assets/linkedin.svg" alt="Visit Ali's LinkedIn" width="160" height="44"></a>
