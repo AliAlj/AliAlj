@@ -20,6 +20,18 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
+      - name: Remove stars and forks counters
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          p = Path("profile-3d-contrib/profile-night-green.svg")
+          svg = p.read_text()
+          start = '<g transform="translate(608, 802), scale(2)">'
+          end = '<text style="font-size: 16px;" x="1260"'
+          a = svg.index(start)
+          b = svg.index(end, a)
+          p.write_text(svg[:a] + svg[b:])
+          PY
       - name: Save calendar
         run: |
           git config user.name 'github-actions[bot]'
