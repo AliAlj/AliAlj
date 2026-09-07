@@ -52,7 +52,7 @@ jobs:
               f'🔥 {longest} day streak</text>'
           )
           cleaned = cleaned.replace(marker, stat + marker)
-          Path("profile-3d-contrib/profile-night-green-clean.svg").write_text(cleaned)
+          Path("profile-3d-contrib/profile-night-green-streak.svg").write_text(cleaned)
           PY
       - name: Save calendar
         run: |
