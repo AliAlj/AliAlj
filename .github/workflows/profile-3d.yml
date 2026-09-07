@@ -88,7 +88,7 @@ jobs:
               'class="fill-fg">views</tspan></text>'
           )
           cleaned = cleaned.replace(marker, stat + marker)
-          Path("profile-3d-contrib/profile-night-green-stats.svg").write_text(cleaned)
+          Path("profile-3d-contrib/profile-night-green-centered.svg").write_text(cleaned)
           PY
       - name: Save calendar
         run: |
