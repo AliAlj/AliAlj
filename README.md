@@ -9,5 +9,5 @@
 <h3 align="center">My contributions, stacks on stacks on stacks</h3>
 
 <p align="center">
-  <img src="./profile-3d-contrib/profile-night-green-clean.svg" alt="Ali's 3D contribution calendar">
+  <img src="./profile-3d-contrib/profile-night-green-streak.svg" alt="Ali's 3D contribution calendar">
 </p>
