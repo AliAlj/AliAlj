@@ -34,6 +34,7 @@ jobs:
           p.write_text(cleaned)
 
           import json
+          import re
           from urllib.request import Request, urlopen
           try:
               request = Request(
@@ -45,6 +46,18 @@ jobs:
           except Exception:
               longest = 7
 
+          try:
+              request = Request(
+                  "https://komarev.com/ghpvc/?username=AliAlj&label=views",
+                  headers={"User-Agent": "AliAlj-profile"},
+              )
+              with urlopen(request, timeout=15) as response:
+                  badge = response.read().decode()
+              numbers = re.findall(r'>([0-9]+(?:\\.[0-9]+)?[kKmM]?)</text>', badge)
+              views = numbers[-1] if numbers else "19"
+          except Exception:
+              views = "19"
+
           marker = '<text style="font-size: 16px;" x="1260"'
           stat = (
               '<text style="font-size: 32px; font-weight: bold;" '
@@ -53,6 +66,12 @@ jobs:
               '<text style="font-size: 24px;" '
               'x="830" y="830" text-anchor="start" class="fill-fg">'
               'day streak</text>'
+              '<text style="font-size: 32px; font-weight: bold;" '
+              'x="1080" y="830" text-anchor="end" class="fill-strong">'
+              f'🔎 {views}</text>'
+              '<text style="font-size: 24px;" '
+              'x="1090" y="830" text-anchor="start" class="fill-fg">'
+              'views</text>'
           )
           cleaned = cleaned.replace(marker, stat + marker)
           Path("profile-3d-contrib/profile-night-green-streak.svg").write_text(cleaned)
