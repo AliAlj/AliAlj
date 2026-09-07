@@ -12,7 +12,7 @@
   <a href="mailto:alimjahmi@gmail.com"><img src="./assets/email.svg" alt="Email Ali at alimjahmi@gmail.com" width="160" height="44"></a>
 </p>
 
-<h3 align="center">My contributions, stacks on stacks on stacks</h3>
+<h3 align="center">My contributions, stacks on stacks on stacks.</h3>
 
 <p align="center">
   <img src="./profile-3d-contrib/profile-night-green-stats.svg" alt="Ali's 3D contribution calendar">
