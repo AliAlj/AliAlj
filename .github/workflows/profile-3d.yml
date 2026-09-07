@@ -58,20 +58,34 @@ jobs:
           except Exception:
               views = "19"
 
+          contribution_pattern = (
+              r'<text style="font-size: 32px; font-weight: bold;" '
+              r'x="384" y="830" text-anchor="end" class="fill-strong">'
+              r'([0-9]+)</text><text style="font-size: 24px;" '
+              r'x="394" y="830" text-anchor="start" class="fill-fg">'
+              r'contributions</text>'
+          )
+          contribution = (
+              '<text x="213.33" y="830" text-anchor="middle">'
+              '<tspan style="font-size: 32px; font-weight: bold;" '
+              'class="fill-strong">\\1</tspan>'
+              '<tspan dx="10" style="font-size: 24px;" '
+              'class="fill-fg">contributions</tspan></text>'
+          )
+          cleaned = re.sub(contribution_pattern, contribution, cleaned)
+
           marker = '<text style="font-size: 16px;" x="1260"'
           stat = (
-              '<text style="font-size: 32px; font-weight: bold;" '
-              'x="820" y="830" text-anchor="end" class="fill-strong">'
-              f'🔥 {longest}</text>'
-              '<text style="font-size: 24px;" '
-              'x="830" y="830" text-anchor="start" class="fill-fg">'
-              'day streak</text>'
-              '<text style="font-size: 32px; font-weight: bold;" '
-              'x="1080" y="830" text-anchor="end" class="fill-strong">'
-              f'🔎 {views}</text>'
-              '<text style="font-size: 24px;" '
-              'x="1090" y="830" text-anchor="start" class="fill-fg">'
-              'views</text>'
+              '<text x="640" y="830" text-anchor="middle">'
+              '<tspan style="font-size: 32px; font-weight: bold;" '
+              f'class="fill-strong">🔥 {longest}</tspan>'
+              '<tspan dx="10" style="font-size: 24px;" '
+              'class="fill-fg">day streak</tspan></text>'
+              '<text x="1066.67" y="830" text-anchor="middle">'
+              '<tspan style="font-size: 32px; font-weight: bold;" '
+              f'class="fill-strong">🔎 {views}</tspan>'
+              '<tspan dx="10" style="font-size: 24px;" '
+              'class="fill-fg">views</tspan></text>'
           )
           cleaned = cleaned.replace(marker, stat + marker)
           Path("profile-3d-contrib/profile-night-green-stats.svg").write_text(cleaned)
