@@ -30,7 +30,7 @@ jobs:
           end = '<text style="font-size: 16px;" x="1260"'
           a = svg.index(start)
           b = svg.index(end, a)
-          p.write_text(svg[:a] + svg[b:])
+          cleaned = svg[:a] + svg[b:]\n          p.write_text(cleaned)\n          Path("profile-3d-contrib/profile-night-green-clean.svg").write_text(cleaned)
           PY
       - name: Save calendar
         run: |
