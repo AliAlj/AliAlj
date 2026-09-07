@@ -8,6 +8,6 @@
 
 ### My contributions, stacks on stacks on stacks
 
-![Ali's animated 3D contribution calendar](./profile-3d-contrib/profile-night-green.svg)
+![Ali's animated 3D contribution calendar](./profile-3d-contrib/profile-night-green-clean.svg)
 
 <sub>Built from my GitHub activity · refreshed daily</sub>
