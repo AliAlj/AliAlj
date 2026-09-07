@@ -32,6 +32,26 @@ jobs:
           b = svg.index(end, a)
           cleaned = svg[:a] + svg[b:]
           p.write_text(cleaned)
+
+          import json
+          from urllib.request import Request, urlopen
+          try:
+              request = Request(
+                  "https://streak-stats.demolab.com?user=AliAlj&type=json",
+                  headers={"User-Agent": "AliAlj-profile"},
+              )
+              with urlopen(request, timeout=15) as response:
+                  longest = int(json.load(response)["longestStreak"]["length"])
+          except Exception:
+              longest = 7
+
+          marker = '<text style="font-size: 16px;" x="1260"'
+          stat = (
+              '<text style="font-size: 28px; font-weight: bold;" '
+              'x="860" y="830" text-anchor="middle" class="fill-fg">'
+              f'🔥 {longest} day streak</text>'
+          )
+          cleaned = cleaned.replace(marker, stat + marker)
           Path("profile-3d-contrib/profile-night-green-clean.svg").write_text(cleaned)
           PY
       - name: Save calendar
