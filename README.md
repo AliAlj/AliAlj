@@ -1,9 +1,9 @@
 ![Ali Aljahmi](./assets/ali-name.svg)
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/ali-alj/"><img src="./assets/linkedin.svg" alt="Visit Ali's LinkedIn" width="160" height="44"></a>
+  <a href="https://www.linkedin.com/in/ali-alj/"><img src="./assets/linkedin-logo.svg" alt="Visit Ali's LinkedIn" width="160" height="44"></a>
   &nbsp;&nbsp;
-  <a href="https://alialj.github.io/Portfolio/"><img src="./assets/portfolio.svg" alt="Explore Ali's Portfolio" width="160" height="44"></a>
+  <a href="https://alialj.github.io/Portfolio/"><img src="./assets/portfolio-logo.svg" alt="Explore Ali's Portfolio" width="160" height="44"></a>
   &nbsp;&nbsp;
   <a href="mailto:alimjahmi@gmail.com"><img src="./assets/email.svg" alt="Email Ali at alimjahmi@gmail.com" width="160" height="44"></a>
 </p>
