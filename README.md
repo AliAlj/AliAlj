@@ -6,7 +6,7 @@
   <a href="https://alialj.github.io/Portfolio/"><img src="./assets/portfolio.svg" alt="Explore Ali's Portfolio" width="160" height="44"></a>
 </p>
 
-### Stacks on stacks on stacks
+### My contributions, stacks on stacks on stacks
 
 ![Ali's animated 3D contribution calendar](./profile-3d-contrib/profile-night-green.svg)
 
