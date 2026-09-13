@@ -15,6 +15,6 @@
 <h3 align="center">My contributions, stacks on stacks on stacks.</h3>
 
 <p align="center">
-  <img src="./profile-3d-contrib/profile-white-green-tight.svg" alt="Ali's 3D contribution calendar">
+  <img src="./profile-3d-contrib/profile-white-astral-tight.svg" alt="Ali's 3D contribution calendar">
   <img src="https://komarev.com/ghpvc/?username=AliAlj&amp;style=pixel" alt="" width="1" height="1">
 </p>
