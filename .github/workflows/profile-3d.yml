@@ -31,6 +31,16 @@ jobs:
           a = svg.index(start)
           b = svg.index(end, a)
           cleaned = svg[:a] + svg[b:]
+          cleaned = (
+              cleaned
+              .replace(".fill-fg { fill: #eeeeff; }", ".fill-fg { fill: #24292f; }")
+              .replace(".stroke-fg { stroke: #eeeeff; }", ".stroke-fg { stroke: #24292f; }")
+              .replace(".fill-bg { fill: #00000f; }", ".fill-bg { fill: #ffffff; }")
+              .replace(".stroke-bg { stroke: #00000f; }", ".stroke-bg { stroke: #ffffff; }")
+              .replace(".fill-strong { fill: rgb(255,200,55); }", ".fill-strong { fill: #1a7f37; }")
+              .replace(".fill-weak { fill: #aaaaaa; }", ".fill-weak { fill: #57606a; }")
+              .replace(".stroke-weak { stroke: #aaaaaa; }", ".stroke-weak { stroke: #d0d7de; }")
+          )
           p.write_text(cleaned)
 
           import json
@@ -88,7 +98,7 @@ jobs:
               'class="fill-fg">views</tspan></text>'
           )
           cleaned = cleaned.replace(marker, stat + marker)
-          Path("profile-3d-contrib/profile-night-green-tight.svg").write_text(cleaned)
+          Path("profile-3d-contrib/profile-white-green-tight.svg").write_text(cleaned)
           PY
       - name: Save calendar
         run: |
