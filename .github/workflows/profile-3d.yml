@@ -53,9 +53,9 @@ jobs:
               .replace(".cont-top-3 { fill: rgb(45, 209, 67); }", ".cont-top-3 { fill: #a78bfa; }")
               .replace(".cont-left-3 { fill: rgb(38, 175, 56); }", ".cont-left-3 { fill: #8670d0; }")
               .replace(".cont-right-3 { fill: rgb(31, 146, 47); }", ".cont-right-3 { fill: #6d5bb5; }")
-              .replace(".cont-top-4 { fill: rgb(87, 218, 105); }", ".cont-top-4 { fill: #c4b5fd; }")
-              .replace(".cont-left-4 { fill: rgb(73, 182, 88); }", ".cont-left-4 { fill: #a396db; }")
-              .replace(".cont-right-4 { fill: rgb(61, 153, 74); }", ".cont-right-4 { fill: #887ec0; }")
+              .replace(".cont-top-4 { fill: rgb(87, 218, 105); }", ".cont-top-4 { fill: #5b21b6; }")
+              .replace(".cont-left-4 { fill: rgb(73, 182, 88); }", ".cont-left-4 { fill: #4c1d95; }")
+              .replace(".cont-right-4 { fill: rgb(61, 153, 74); }", ".cont-right-4 { fill: #3b1674; }")
           )
           p.write_text(cleaned)
 
@@ -114,7 +114,7 @@ jobs:
               'class="fill-fg">views</tspan></text>'
           )
           cleaned = cleaned.replace(marker, stat + marker)
-          Path("profile-3d-contrib/profile-white-astral-tight.svg").write_text(cleaned)
+          Path("profile-3d-contrib/profile-white-astral-ordered.svg").write_text(cleaned)
           PY
       - name: Save calendar
         run: |
