@@ -37,9 +37,25 @@ jobs:
               .replace(".stroke-fg { stroke: #eeeeff; }", ".stroke-fg { stroke: #24292f; }")
               .replace(".fill-bg { fill: #00000f; }", ".fill-bg { fill: #ffffff; }")
               .replace(".stroke-bg { stroke: #00000f; }", ".stroke-bg { stroke: #ffffff; }")
-              .replace(".fill-strong { fill: rgb(255,200,55); }", ".fill-strong { fill: #1a7f37; }")
+              .replace(".fill-strong { fill: rgb(255,200,55); }", ".fill-strong { fill: #6d5bb5; }")
               .replace(".fill-weak { fill: #aaaaaa; }", ".fill-weak { fill: #57606a; }")
               .replace(".stroke-weak { stroke: #aaaaaa; }", ".stroke-weak { stroke: #d0d7de; }")
+              .replace("stroke: #47a042;\\nfill: #47a042;", "stroke: #a78bfa;\\nfill: #a78bfa;")
+              .replace(".cont-top-0 { fill: rgb(68, 68, 68); }", ".cont-top-0 { fill: #e8e7f2; }")
+              .replace(".cont-left-0 { fill: rgb(57, 57, 57); }", ".cont-left-0 { fill: #d3d1e2; }")
+              .replace(".cont-right-0 { fill: rgb(48, 48, 48); }", ".cont-right-0 { fill: #bdb9d0; }")
+              .replace(".cont-top-1 { fill: rgb(27, 125, 40); }", ".cont-top-1 { fill: #5eead4; }")
+              .replace(".cont-left-1 { fill: rgb(23, 105, 33); }", ".cont-left-1 { fill: #3fcbbb; }")
+              .replace(".cont-right-1 { fill: rgb(19, 88, 28); }", ".cont-right-1 { fill: #2aae9f; }")
+              .replace(".cont-top-2 { fill: rgb(36, 167, 54); }", ".cont-top-2 { fill: #65c7e8; }")
+              .replace(".cont-left-2 { fill: rgb(30, 140, 45); }", ".cont-left-2 { fill: #4aa8ca; }")
+              .replace(".cont-right-2 { fill: rgb(25, 117, 38); }", ".cont-right-2 { fill: #398baa; }")
+              .replace(".cont-top-3 { fill: rgb(45, 209, 67); }", ".cont-top-3 { fill: #a78bfa; }")
+              .replace(".cont-left-3 { fill: rgb(38, 175, 56); }", ".cont-left-3 { fill: #8670d0; }")
+              .replace(".cont-right-3 { fill: rgb(31, 146, 47); }", ".cont-right-3 { fill: #6d5bb5; }")
+              .replace(".cont-top-4 { fill: rgb(87, 218, 105); }", ".cont-top-4 { fill: #c4b5fd; }")
+              .replace(".cont-left-4 { fill: rgb(73, 182, 88); }", ".cont-left-4 { fill: #a396db; }")
+              .replace(".cont-right-4 { fill: rgb(61, 153, 74); }", ".cont-right-4 { fill: #887ec0; }")
           )
           p.write_text(cleaned)
 
@@ -98,7 +114,7 @@ jobs:
               'class="fill-fg">views</tspan></text>'
           )
           cleaned = cleaned.replace(marker, stat + marker)
-          Path("profile-3d-contrib/profile-white-green-tight.svg").write_text(cleaned)
+          Path("profile-3d-contrib/profile-white-astral-tight.svg").write_text(cleaned)
           PY
       - name: Save calendar
         run: |
